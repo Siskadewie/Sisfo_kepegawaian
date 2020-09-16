@@ -1,0 +1,70 @@
+.table-zebra-striping {
+  width: 70%;
+  margin-left: 10px;
+  margin-top: 60px;
+  border-collapse: collapse;
+}
+
+
+
+.table-zebra-striping th {
+  background: #8CAAD4;
+  color: #FFC0CB;
+  padding: 1em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.table-zebra-striping td {
+  border-bottom: 1px solid #ddd;
+  padding: 1em;
+}
+
+/* EVEN */
+
+.table-zebra-striping tr:nth-child(even) {
+  background: #F5F5F5;
+}
+
+/* ODD */
+
+.table-zebri-striping tr:nth-child(odd) {
+  background: #D5DDE8;
+}
+
+
+.table-zebri-striping {
+  width: 98%;
+  margin-left: 0px;
+  margin-top: 60px;
+  border-collapse: collapse;
+}
+
+
+
+.table-zebri-striping th {
+  background: #8CAAD4;
+  color: #FFFFFF;
+  padding: 1em;
+  font-size: 13px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.table-zebri-striping td {
+  border-bottom: 1px solid #ddd;
+  padding: 1em;
+  font-size: 15px;
+}
+
+/* EVEN */
+
+.table-zebri-striping tr:nth-child(even) {
+  background: #F5F5F5;
+}
+
+/* ODD */
+
+.table-zebri-striping tr:nth-child(odd) {
+  background: #D5DDE8;
+}
